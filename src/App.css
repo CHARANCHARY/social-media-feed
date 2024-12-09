@@ -1,0 +1,89 @@
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+.no-scroll {
+    overflow: hidden;
+}
+.no-pointer-events {
+    pointer-events: none;
+}
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.post-video{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+.post-image{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    
+
+}
+.feed-post-section{
+    width: 328px;
+    height: auto;
+}
+
+
+.share-btn{
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 92px;
+    height: 30px;
+    top: 299px;
+    left: 224px;
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-right: 26px;
+    padding-bottom: 7px;
+    padding-left: 26px;
+    gap: 4px;
+ 
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.capture{
+   
+}
